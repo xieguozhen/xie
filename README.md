@@ -14,7 +14,17 @@
 -响应浏览器HTTP请求
 
 ```sh
+#安装unzip解压工具
 sudo apt install unzip
+
+#拷贝二进制文件
+sudo cp .deno/bin/deno /usr/bin
+
+#检查是否安装成功
+deno --version
+
+#克隆仓库
+git 
 ```
 
 ##Datebase
