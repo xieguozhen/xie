@@ -13,6 +13,10 @@
 
 -响应浏览器HTTP请求
 
+```sh
+sudo apt install unzip
+```
+
 ##Datebase
 
  持久化数据，保存Browser浏览器端用户需要的数据
