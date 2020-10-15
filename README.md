@@ -17,6 +17,9 @@
 #安装unzip解压工具
 sudo apt install unzip
 
+curl -fsSL https://deno.land/x/install/install.sh | sh 
+
+
 #拷贝二进制文件
 sudo cp .deno/bin/deno /usr/bin
 
@@ -25,6 +28,12 @@ deno --version
 
 #克隆仓库
 git clone https://github.com/xieguozhen/xie.git
+
+cd文件夹
+vim mod.js
+deno run --allow-net mod.js
+
+curl localhost:8080
 ```
 
 ##Datebase
