@@ -24,7 +24,7 @@ sudo cp .deno/bin/deno /usr/bin
 deno --version
 
 #克隆仓库
-git 
+git clone https://github.com/xieguozhen/xie.git
 ```
 
 ##Datebase
